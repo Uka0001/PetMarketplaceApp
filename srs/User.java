@@ -1,16 +1,20 @@
 package srs;
 
-public class Users {
+public class User{
     private int userId;
     private String firstName;
     private String lastName;
     private double amountOfMoney;
 
-    public Users(int userId, String firstName, String lastName, double amountOfMoney) {
+    public User(int userId, String firstName, String lastName, double amountOfMoney) {
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.amountOfMoney = amountOfMoney;
+    }
+
+    void userDisplay(){
+        System.out.println();
     }
 
     @Override

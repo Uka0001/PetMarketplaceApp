@@ -1,15 +1,19 @@
 package srs;
 
-public class Products {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Product{
     private int Id;
     private String Name;
     private double  Price;
 
-    public Products(int id, String name, double price) {
+    public Product(int id, String name, double price) {
         Id = id;
         Name = name;
         Price = price;
     }
+
 
     @Override
     public String toString() {
