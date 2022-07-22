@@ -1,8 +1,5 @@
 package srs;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Product{
     private int Id;
     private String Name;
@@ -13,7 +10,6 @@ public class Product{
         Name = name;
         Price = price;
     }
-
 
     @Override
     public String toString() {

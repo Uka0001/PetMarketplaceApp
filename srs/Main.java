@@ -1,7 +1,6 @@
 package srs;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class Main {
@@ -16,14 +15,16 @@ public class Main {
         users.add(new User(2, "Bill", "White", 2000));
         users.add(new User(3, "Jack", "Java", 3000));
 
-        //showUser();
+        showProducts(products);
+        showUsers(users);
 
     }
 
-    /*private static void showUser() {
-        for (int i: products) {
-            System.out.println(products);
-        }
-        System.out.println(prodacts);
-    }*/
+    private static void showUsers(List<User> users) {
+        System.out.println(users);
+    }
+
+    private static void showProducts(List<Product> products) {
+        System.out.println(products);
+    }
 }
